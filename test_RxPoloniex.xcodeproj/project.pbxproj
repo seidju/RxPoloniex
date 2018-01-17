@@ -7,21 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27939B57FA3041E56CCAA2FD /* Pods_test_RxPoloniex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB8A1D7697D65F3C52EFCCF /* Pods_test_RxPoloniex.framework */; };
+		8B3649B8200F7AE400D0B54A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3649B7200F7AE400D0B54A /* OnboardingView.swift */; };
+		8B3649BA200F7AF700D0B54A /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3649B9200F7AF700D0B54A /* OnboardingCoordinator.swift */; };
+		8B3649BC200F7B0C00D0B54A /* OnboardingCoorinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3649BB200F7B0C00D0B54A /* OnboardingCoorinatorOutput.swift */; };
+		8B3649BE200F7B5500D0B54A /* OnboardingModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3649BD200F7B5500D0B54A /* OnboardingModuleFactoryProtocol.swift */; };
+		8B3649C2200F7B9F00D0B54A /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3649C1200F7B9F00D0B54A /* OnboardingViewController.swift */; };
+		8B76546A200F73AA00635825 /* SharedSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B765469200F73AA00635825 /* SharedSettings.swift */; };
+		8B76546C200F73CE00635825 /* UIImage+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76546B200F73CE00635825 /* UIImage+Hex.swift */; };
 		8B87137F200ED00F00261921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87137E200ED00F00261921 /* AppDelegate.swift */; };
-		8B871381200ED00F00261921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B871380200ED00F00261921 /* ViewController.swift */; };
-		8B871384200ED00F00261921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B871382200ED00F00261921 /* Main.storyboard */; };
 		8B871386200ED00F00261921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B871385200ED00F00261921 /* Assets.xcassets */; };
 		8B871389200ED00F00261921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B871387200ED00F00261921 /* LaunchScreen.storyboard */; };
+		8B8713A0200ED09200261921 /* DeepLinkOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B871398200ED09100261921 /* DeepLinkOption.swift */; };
+		8B8713A1200ED09200261921 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B871399200ED09100261921 /* Presentable.swift */; };
+		8B8713A2200ED09200261921 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87139A200ED09100261921 /* BaseView.swift */; };
+		8B8713A3200ED09200261921 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87139B200ED09100261921 /* Coordinator.swift */; };
+		8B8713A4200ED09200261921 /* RouterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87139D200ED09100261921 /* RouterImp.swift */; };
+		8B8713A5200ED09200261921 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87139E200ED09100261921 /* Router.swift */; };
+		8B8713A6200ED09200261921 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87139F200ED09100261921 /* BaseCoordinator.swift */; };
+		8B8713AA200ED1C400261921 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713A9200ED1C400261921 /* ApplicationCoordinator.swift */; };
+		8B8713AC200ED20700261921 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713AB200ED20700261921 /* TabBarView.swift */; };
+		8B8713AF200ED28700261921 /* CoordinatorFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713AE200ED28700261921 /* CoordinatorFactoryProtocol.swift */; };
+		8B8713B1200ED2ED00261921 /* QuotationsModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713B0200ED2ED00261921 /* QuotationsModuleFactoryProtocol.swift */; };
+		8B8713B3200ED33700261921 /* QuotationsCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713B2200ED33700261921 /* QuotationsCoordinatorOutput.swift */; };
+		8B8713B5200EDCC100261921 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713B4200EDCC100261921 /* TabBarCoordinator.swift */; };
+		8B8713B7200EDCEC00261921 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713B6200EDCEC00261921 /* CoordinatorFactory.swift */; };
+		8B8713BA200EDD4D00261921 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713B9200EDD4D00261921 /* TabBarController.swift */; };
+		8B8713BC200F14E100261921 /* QuotationsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713BB200F14E100261921 /* QuotationsCoordinator.swift */; };
+		8B8713C2200F186000261921 /* QuotationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713C1200F186000261921 /* QuotationsListViewController.swift */; };
+		8B8713C6200F190A00261921 /* QuotationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713C5200F190A00261921 /* QuotationsView.swift */; };
+		8B8713C8200F194100261921 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713C7200F194100261921 /* ModuleFactory.swift */; };
+		8B8713CA200F505300261921 /* Quotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713C9200F505300261921 /* Quotation.swift */; };
+		8B8713CC200F506F00261921 /* QuotationsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713CB200F506F00261921 /* QuotationsListModel.swift */; };
+		8B8713CE200F568B00261921 /* QuotationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713CD200F568B00261921 /* QuotationTableViewCell.swift */; };
+		8B8713D2200F589500261921 /* QuotationsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8713D1200F589500261921 /* QuotationsListViewModel.swift */; };
+		8B94FAF8200F6C2C00DA3080 /*  ScrollViewInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94FAF7200F6C2C00DA3080 /*  ScrollViewInsets.swift */; };
+		8BE9342D200F757100B1C7D8 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9342C200F757100B1C7D8 /* EmptyView.swift */; };
+		8BE9342F200F75A600B1C7D8 /* EmptyCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9342E200F75A600B1C7D8 /* EmptyCoordinatorOutput.swift */; };
+		8BE93431200F75D000B1C7D8 /* EmptyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE93430200F75D000B1C7D8 /* EmptyCoordinator.swift */; };
+		8BE93433200F75FB00B1C7D8 /* EmptyModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE93432200F75FB00B1C7D8 /* EmptyModuleFactoryProtocol.swift */; };
+		8BE93436200F763E00B1C7D8 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE93435200F763E00B1C7D8 /* EmptyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1053A0716119EC8A73503B39 /* Pods-test_RxPoloniex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_RxPoloniex.release.xcconfig"; path = "Pods/Target Support Files/Pods-test_RxPoloniex/Pods-test_RxPoloniex.release.xcconfig"; sourceTree = "<group>"; };
+		6FB1D3EEA1C230FD7DA2EA6B /* Pods-test_RxPoloniex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_RxPoloniex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test_RxPoloniex/Pods-test_RxPoloniex.debug.xcconfig"; sourceTree = "<group>"; };
+		8B3649B7200F7AE400D0B54A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8B3649B9200F7AF700D0B54A /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		8B3649BB200F7B0C00D0B54A /* OnboardingCoorinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoorinatorOutput.swift; sourceTree = "<group>"; };
+		8B3649BD200F7B5500D0B54A /* OnboardingModuleFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModuleFactoryProtocol.swift; sourceTree = "<group>"; };
+		8B3649C1200F7B9F00D0B54A /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		8B765469200F73AA00635825 /* SharedSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedSettings.swift; sourceTree = "<group>"; };
+		8B76546B200F73CE00635825 /* UIImage+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Hex.swift"; sourceTree = "<group>"; };
 		8B87137B200ED00F00261921 /* test_RxPoloniex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_RxPoloniex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B87137E200ED00F00261921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B871380200ED00F00261921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8B871383200ED00F00261921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B871385200ED00F00261921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B871388200ED00F00261921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B87138A200ED00F00261921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B871398200ED09100261921 /* DeepLinkOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepLinkOption.swift; sourceTree = "<group>"; };
+		8B871399200ED09100261921 /* Presentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		8B87139A200ED09100261921 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		8B87139B200ED09100261921 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		8B87139D200ED09100261921 /* RouterImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterImp.swift; sourceTree = "<group>"; };
+		8B87139E200ED09100261921 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8B87139F200ED09100261921 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseCoordinator.swift; path = test_RxPoloniex/Flow/BaseCoordinator.swift; sourceTree = SOURCE_ROOT; };
+		8B8713A9200ED1C400261921 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		8B8713AB200ED20700261921 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		8B8713AE200ED28700261921 /* CoordinatorFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactoryProtocol.swift; sourceTree = "<group>"; };
+		8B8713B0200ED2ED00261921 /* QuotationsModuleFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationsModuleFactoryProtocol.swift; sourceTree = "<group>"; };
+		8B8713B2200ED33700261921 /* QuotationsCoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationsCoordinatorOutput.swift; sourceTree = "<group>"; };
+		8B8713B4200EDCC100261921 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		8B8713B6200EDCEC00261921 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		8B8713B9200EDD4D00261921 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8B8713BB200F14E100261921 /* QuotationsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationsCoordinator.swift; sourceTree = "<group>"; };
+		8B8713C1200F186000261921 /* QuotationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationsListViewController.swift; sourceTree = "<group>"; };
+		8B8713C5200F190A00261921 /* QuotationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationsView.swift; sourceTree = "<group>"; };
+		8B8713C7200F194100261921 /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		8B8713C9200F505300261921 /* Quotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotation.swift; sourceTree = "<group>"; };
+		8B8713CB200F506F00261921 /* QuotationsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationsListModel.swift; sourceTree = "<group>"; };
+		8B8713CD200F568B00261921 /* QuotationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationTableViewCell.swift; sourceTree = "<group>"; };
+		8B8713D1200F589500261921 /* QuotationsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationsListViewModel.swift; sourceTree = "<group>"; };
+		8B94FAF7200F6C2C00DA3080 /*  ScrollViewInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ScrollViewInsets.swift"; sourceTree = "<group>"; };
+		8BE9342C200F757100B1C7D8 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		8BE9342E200F75A600B1C7D8 /* EmptyCoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCoordinatorOutput.swift; sourceTree = "<group>"; };
+		8BE93430200F75D000B1C7D8 /* EmptyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCoordinator.swift; sourceTree = "<group>"; };
+		8BE93432200F75FB00B1C7D8 /* EmptyModuleFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyModuleFactoryProtocol.swift; sourceTree = "<group>"; };
+		8BE93435200F763E00B1C7D8 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		CBB8A1D7697D65F3C52EFCCF /* Pods_test_RxPoloniex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_RxPoloniex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +101,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27939B57FA3041E56CCAA2FD /* Pods_test_RxPoloniex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B3649B6200F7AC500D0B54A /* Onboarding flow */ = {
+			isa = PBXGroup;
+			children = (
+				8B3649B7200F7AE400D0B54A /* OnboardingView.swift */,
+				8B3649BB200F7B0C00D0B54A /* OnboardingCoorinatorOutput.swift */,
+				8B3649B9200F7AF700D0B54A /* OnboardingCoordinator.swift */,
+			);
+			path = "Onboarding flow";
+			sourceTree = "<group>";
+		};
+		8B3649BF200F7B7C00D0B54A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8B3649C0200F7B8600D0B54A /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8B3649C0200F7B8600D0B54A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B3649C1200F7B9F00D0B54A /* OnboardingViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8B871372200ED00F00261921 = {
 			isa = PBXGroup;
 			children = (
 				8B87137D200ED00F00261921 /* test_RxPoloniex */,
 				8B87137C200ED00F00261921 /* Products */,
+				E52EA927E0A799296AC42DCE /* Pods */,
+				9DA9B9AEEC4A4FFEFBE8607B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +155,224 @@
 		8B87137D200ED00F00261921 /* test_RxPoloniex */ = {
 			isa = PBXGroup;
 			children = (
-				8B87137E200ED00F00261921 /* AppDelegate.swift */,
-				8B871380200ED00F00261921 /* ViewController.swift */,
-				8B871382200ED00F00261921 /* Main.storyboard */,
+				8B871391200ED03300261921 /* Application */,
+				8B871396200ED05400261921 /* Factories */,
+				8B871392200ED03B00261921 /* Flow */,
+				8B871395200ED04C00261921 /* Extensions */,
+				8B871394200ED04600261921 /* Views */,
+				8B871393200ED04100261921 /* Modules */,
+				8B871390200ED02800261921 /* Resources */,
+			);
+			path = test_RxPoloniex;
+			sourceTree = "<group>";
+		};
+		8B871390200ED02800261921 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				8B871385200ED00F00261921 /* Assets.xcassets */,
 				8B871387200ED00F00261921 /* LaunchScreen.storyboard */,
 				8B87138A200ED00F00261921 /* Info.plist */,
 			);
-			path = test_RxPoloniex;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B871391200ED03300261921 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8B87137E200ED00F00261921 /* AppDelegate.swift */,
+				8B8713A9200ED1C400261921 /* ApplicationCoordinator.swift */,
+				8B765469200F73AA00635825 /* SharedSettings.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8B871392200ED03B00261921 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				8B87139F200ED09100261921 /* BaseCoordinator.swift */,
+				8B3649B6200F7AC500D0B54A /* Onboarding flow */,
+				8BE9342B200F756300B1C7D8 /* Empty flow */,
+				8B871397200ED09100261921 /* Protocols */,
+				8B8713A8200ED16A00261921 /* Quotations flow */,
+				8B8713A7200ED14C00261921 /* TabBar flow */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		8B871393200ED04100261921 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8B3649BF200F7B7C00D0B54A /* Onboarding */,
+				8BE9342A200F755700B1C7D8 /* Empty */,
+				8B8713BD200F183E00261921 /* Quotations list */,
+				8B8713B8200EDD4100261921 /* TabBar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8B871394200ED04600261921 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B871395200ED04C00261921 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B94FAF7200F6C2C00DA3080 /*  ScrollViewInsets.swift */,
+				8B76546B200F73CE00635825 /* UIImage+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B871396200ED05400261921 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				8B8713AD200ED25400261921 /* Protocols */,
+				8B8713B6200EDCEC00261921 /* CoordinatorFactory.swift */,
+				8B8713C7200F194100261921 /* ModuleFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		8B871397200ED09100261921 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8B871398200ED09100261921 /* DeepLinkOption.swift */,
+				8B871399200ED09100261921 /* Presentable.swift */,
+				8B87139A200ED09100261921 /* BaseView.swift */,
+				8B87139B200ED09100261921 /* Coordinator.swift */,
+				8B87139C200ED09100261921 /* Router */,
+			);
+			name = Protocols;
+			path = test_RxPoloniex/Flow/Protocols;
+			sourceTree = SOURCE_ROOT;
+		};
+		8B87139C200ED09100261921 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8B87139D200ED09100261921 /* RouterImp.swift */,
+				8B87139E200ED09100261921 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8B8713A7200ED14C00261921 /* TabBar flow */ = {
+			isa = PBXGroup;
+			children = (
+				8B8713AB200ED20700261921 /* TabBarView.swift */,
+				8B8713B4200EDCC100261921 /* TabBarCoordinator.swift */,
+			);
+			path = "TabBar flow";
+			sourceTree = "<group>";
+		};
+		8B8713A8200ED16A00261921 /* Quotations flow */ = {
+			isa = PBXGroup;
+			children = (
+				8B8713B2200ED33700261921 /* QuotationsCoordinatorOutput.swift */,
+				8B8713BB200F14E100261921 /* QuotationsCoordinator.swift */,
+				8B8713C5200F190A00261921 /* QuotationsView.swift */,
+			);
+			path = "Quotations flow";
+			sourceTree = "<group>";
+		};
+		8B8713AD200ED25400261921 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8B8713AE200ED28700261921 /* CoordinatorFactoryProtocol.swift */,
+				8B8713B0200ED2ED00261921 /* QuotationsModuleFactoryProtocol.swift */,
+				8B3649BD200F7B5500D0B54A /* OnboardingModuleFactoryProtocol.swift */,
+				8BE93432200F75FB00B1C7D8 /* EmptyModuleFactoryProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8B8713B8200EDD4100261921 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8B8713B9200EDD4D00261921 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		8B8713BD200F183E00261921 /* Quotations list */ = {
+			isa = PBXGroup;
+			children = (
+				8B8713C0200F185200261921 /* Model */,
+				8B8713BF200F184D00261921 /* ViewModel */,
+				8B8713BE200F184800261921 /* View */,
+			);
+			path = "Quotations list";
+			sourceTree = "<group>";
+		};
+		8B8713BE200F184800261921 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B8713C1200F186000261921 /* QuotationsListViewController.swift */,
+				8B8713CD200F568B00261921 /* QuotationTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B8713BF200F184D00261921 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B8713D1200F589500261921 /* QuotationsListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B8713C0200F185200261921 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B8713C9200F505300261921 /* Quotation.swift */,
+				8B8713CB200F506F00261921 /* QuotationsListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BE9342A200F755700B1C7D8 /* Empty */ = {
+			isa = PBXGroup;
+			children = (
+				8BE93434200F763400B1C7D8 /* View */,
+			);
+			path = Empty;
+			sourceTree = "<group>";
+		};
+		8BE9342B200F756300B1C7D8 /* Empty flow */ = {
+			isa = PBXGroup;
+			children = (
+				8BE9342C200F757100B1C7D8 /* EmptyView.swift */,
+				8BE93430200F75D000B1C7D8 /* EmptyCoordinator.swift */,
+				8BE9342E200F75A600B1C7D8 /* EmptyCoordinatorOutput.swift */,
+			);
+			path = "Empty flow";
+			sourceTree = "<group>";
+		};
+		8BE93434200F763400B1C7D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BE93435200F763E00B1C7D8 /* EmptyViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DA9B9AEEC4A4FFEFBE8607B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB8A1D7697D65F3C52EFCCF /* Pods_test_RxPoloniex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E52EA927E0A799296AC42DCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB1D3EEA1C230FD7DA2EA6B /* Pods-test_RxPoloniex.debug.xcconfig */,
+				1053A0716119EC8A73503B39 /* Pods-test_RxPoloniex.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +382,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B87138D200ED00F00261921 /* Build configuration list for PBXNativeTarget "test_RxPoloniex" */;
 			buildPhases = (
+				FC9E78A897C6F4C0B73F9FCD /* [CP] Check Pods Manifest.lock */,
 				8B871377200ED00F00261921 /* Sources */,
 				8B871378200ED00F00261921 /* Frameworks */,
 				8B871379200ED00F00261921 /* Resources */,
+				A8E6BD39A9933B3D7014AF94 /* [CP] Embed Pods Frameworks */,
+				4767B1CDD73539C4AEFAC023 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +439,123 @@
 			files = (
 				8B871389200ED00F00261921 /* LaunchScreen.storyboard in Resources */,
 				8B871386200ED00F00261921 /* Assets.xcassets in Resources */,
-				8B871384200ED00F00261921 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4767B1CDD73539C4AEFAC023 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test_RxPoloniex/Pods-test_RxPoloniex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E6BD39A9933B3D7014AF94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-test_RxPoloniex/Pods-test_RxPoloniex-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test_RxPoloniex/Pods-test_RxPoloniex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9E78A897C6F4C0B73F9FCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test_RxPoloniex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B871377200ED00F00261921 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B871381200ED00F00261921 /* ViewController.swift in Sources */,
+				8B8713CC200F506F00261921 /* QuotationsListModel.swift in Sources */,
+				8B8713BA200EDD4D00261921 /* TabBarController.swift in Sources */,
+				8BE93436200F763E00B1C7D8 /* EmptyViewController.swift in Sources */,
+				8B8713C6200F190A00261921 /* QuotationsView.swift in Sources */,
+				8B8713C2200F186000261921 /* QuotationsListViewController.swift in Sources */,
+				8B8713A0200ED09200261921 /* DeepLinkOption.swift in Sources */,
 				8B87137F200ED00F00261921 /* AppDelegate.swift in Sources */,
+				8B3649C2200F7B9F00D0B54A /* OnboardingViewController.swift in Sources */,
+				8BE9342D200F757100B1C7D8 /* EmptyView.swift in Sources */,
+				8B8713A3200ED09200261921 /* Coordinator.swift in Sources */,
+				8BE93431200F75D000B1C7D8 /* EmptyCoordinator.swift in Sources */,
+				8B8713A5200ED09200261921 /* Router.swift in Sources */,
+				8B8713B3200ED33700261921 /* QuotationsCoordinatorOutput.swift in Sources */,
+				8B8713A4200ED09200261921 /* RouterImp.swift in Sources */,
+				8BE9342F200F75A600B1C7D8 /* EmptyCoordinatorOutput.swift in Sources */,
+				8B76546C200F73CE00635825 /* UIImage+Hex.swift in Sources */,
+				8BE93433200F75FB00B1C7D8 /* EmptyModuleFactoryProtocol.swift in Sources */,
+				8B8713AA200ED1C400261921 /* ApplicationCoordinator.swift in Sources */,
+				8B8713AF200ED28700261921 /* CoordinatorFactoryProtocol.swift in Sources */,
+				8B8713A1200ED09200261921 /* Presentable.swift in Sources */,
+				8B76546A200F73AA00635825 /* SharedSettings.swift in Sources */,
+				8B8713B7200EDCEC00261921 /* CoordinatorFactory.swift in Sources */,
+				8B3649B8200F7AE400D0B54A /* OnboardingView.swift in Sources */,
+				8B3649BE200F7B5500D0B54A /* OnboardingModuleFactoryProtocol.swift in Sources */,
+				8B8713C8200F194100261921 /* ModuleFactory.swift in Sources */,
+				8B8713CA200F505300261921 /* Quotation.swift in Sources */,
+				8B8713BC200F14E100261921 /* QuotationsCoordinator.swift in Sources */,
+				8B8713A2200ED09200261921 /* BaseView.swift in Sources */,
+				8B94FAF8200F6C2C00DA3080 /*  ScrollViewInsets.swift in Sources */,
+				8B8713CE200F568B00261921 /* QuotationTableViewCell.swift in Sources */,
+				8B3649BC200F7B0C00D0B54A /* OnboardingCoorinatorOutput.swift in Sources */,
+				8B8713D2200F589500261921 /* QuotationsListViewModel.swift in Sources */,
+				8B8713B5200EDCC100261921 /* TabBarCoordinator.swift in Sources */,
+				8B8713B1200ED2ED00261921 /* QuotationsModuleFactoryProtocol.swift in Sources */,
+				8B8713AC200ED20700261921 /* TabBarView.swift in Sources */,
+				8B8713A6200ED09200261921 /* BaseCoordinator.swift in Sources */,
+				8B3649BA200F7AF700D0B54A /* OnboardingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8B871382200ED00F00261921 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B871383200ED00F00261921 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8B871387200ED00F00261921 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,31 +676,35 @@
 		};
 		8B87138E200ED00F00261921 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB1D3EEA1C230FD7DA2EA6B /* Pods-test_RxPoloniex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DV477A9TM;
-				INFOPLIST_FILE = test_RxPoloniex/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/test_RxPoloniex/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ps.test-RxPoloniex";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8B87138F200ED00F00261921 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1053A0716119EC8A73503B39 /* Pods-test_RxPoloniex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DV477A9TM;
-				INFOPLIST_FILE = test_RxPoloniex/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/test_RxPoloniex/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ps.test-RxPoloniex";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

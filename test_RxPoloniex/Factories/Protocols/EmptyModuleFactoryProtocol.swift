@@ -7,6 +7,6 @@
 //
 
 import Foundation
-protocol QuotationsModuleFactoryProtocol {
-  func createQuotationsListOutput() -> QuotationsView
+protocol EmptyModuleFactoryProtocol {
+  func createQuotationsListOutput() -> EmptyView
 }

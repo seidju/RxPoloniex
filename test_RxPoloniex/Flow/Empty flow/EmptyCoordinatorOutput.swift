@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol EmptyCoordinatorOutput {
+  var finishFlow: (()->())? { get set }
+}

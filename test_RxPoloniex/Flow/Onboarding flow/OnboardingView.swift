@@ -7,3 +7,6 @@
 //
 
 import Foundation
+protocol OnboardingView: BaseView {
+  var onFinish: (() -> Void)? { get set }
+}

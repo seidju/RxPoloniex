@@ -6,4 +6,12 @@
 //  Copyright © 2018 Pavel Shatalov. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+protocol TabBarView: class {
+  var onQuotationsFlowSelect: ((UINavigationController) -> ())? { get set }
+  var onEmptyFlowSelect: ((UINavigationController) -> ())? { get set }
+  var onViewWillAppear: ((UINavigationController) -> ())? { get set }
+
+}
+

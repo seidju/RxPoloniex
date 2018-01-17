@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol QuotationsCoordinatorOutput {
+  var finishFlow: (()->())? { get set }
+}

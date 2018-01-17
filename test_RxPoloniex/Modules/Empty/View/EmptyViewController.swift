@@ -6,4 +6,14 @@
 //  Copyright © 2018 Pavel Shatalov. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class EmptyViewController: UIViewController, EmptyView {
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    title = "Empty"
+    view.backgroundColor = SharedSettings.shared.themeColor
+
+  }
+}

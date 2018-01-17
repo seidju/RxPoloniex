@@ -7,3 +7,25 @@
 //
 
 import Foundation
+
+final class EmptyCoordinator: BaseCoordinator, EmptyCoordinatorOutput {
+  
+  var finishFlow: (() -> ())?
+  private let router: Router
+  private let moduleFabric: EmptyModuleFactoryProtocol
+  
+  init(router: Router, moduleFabric: EmptyModuleFactoryProtocol) {
+    self.router = router
+    self.moduleFabric = moduleFabric
+  }
+  
+  override func start() {
+    showEmptyFlow()
+  }
+  
+  private func showEmptyFlow() {
+    let emptyVc = moduleFabric.createQuotationsListOutput()
+    router.setRootModule(emptyVc)
+  }
+  
+}

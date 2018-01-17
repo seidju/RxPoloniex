@@ -8,22 +8,32 @@
 
 import RxSwift
 
-protocol QuotationsViewModelProtocol {
+protocol QuotationsListViewModelProtocol {
   func populateQuotations() -> Observable<[QuotationSection]>
+  func stopTickerUpdate() 
+  func startTickerUpdate() 
+
 }
 
-class QuotationsViewModel: QuotationsViewModelProtocol {
+class QuotationsListViewModel: QuotationsListViewModelProtocol {
   
-  var quotationsListModel: QuotationsListModelProtocol!
-  var reverse: Bool = true
+  private let quotationsListModel: QuotationsListModelProtocol
+  init(quotationsListModel: QuotationsListModelProtocol) {
+    self.quotationsListModel = quotationsListModel
+  }
+  
   func populateQuotations() -> Observable<[QuotationSection]> {
     return Observable.create { [weak self] observable -> Disposable in
-      self?.quotationsLitModel.startTicker { quotations in
+      self?.quotationsListModel.startTicker { quotations in
         let quotationsSection = QuotationSection(model: "", items: quotations)
         observable.onNext([quotationsSection])
       }
       return Disposables.create()
     }
+  }
+  
+  func startTickerUpdate() {
+    quotationsListModel.startTicker()
   }
   
   func stopTickerUpdate() {

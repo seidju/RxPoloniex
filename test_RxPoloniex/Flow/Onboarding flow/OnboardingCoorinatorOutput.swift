@@ -7,3 +7,6 @@
 //
 
 import Foundation
+protocol OnboardingCoorinatorOutput {
+  var finishFlow: (() -> ())? { get set }
+}

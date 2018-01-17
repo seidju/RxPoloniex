@@ -6,4 +6,8 @@
 //  Copyright © 2018 Pavel Shatalov. All rights reserved.
 //
 
-import Foundation
+
+
+protocol QuotationsView: BaseView {
+  
+}

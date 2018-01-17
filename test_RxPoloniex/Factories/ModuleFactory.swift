@@ -7,3 +7,26 @@
 //
 
 import Foundation
+
+class ModuleFactory:
+    QuotationsModuleFactoryProtocol,
+    EmptyModuleFactoryProtocol,
+    OnboardingModuleFactoryProtocol {
+  
+  func createQuotationsListOutput() -> QuotationsView {
+    let model = QuotationsListModel()
+    let viewModel: QuotationsListViewModelProtocol = QuotationsListViewModel(quotationsListModel: model)
+    let vc = QuotationsListViewController(viewModel: viewModel)
+    return vc
+  }
+  
+  func createQuotationsListOutput() -> EmptyView {
+    let vc = EmptyViewController()
+    return vc
+  }
+  
+  func createOnboardingOutput() -> OnboardingView {
+    let vc = OnboardingViewController()
+    return vc
+  }
+}

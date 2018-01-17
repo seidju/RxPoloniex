@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol EmptyView: BaseView {
+  
+}

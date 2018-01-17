@@ -7,3 +7,30 @@
 //
 
 import Foundation
+
+class OnboardingCoordinator: BaseCoordinator, OnboardingCoorinatorOutput {
+  
+  var finishFlow: (() -> ())?
+  
+  private let factory: OnboardingModuleFactoryProtocol
+  private let router: Router
+  
+  init(factory: OnboardingModuleFactoryProtocol, router: Router) {
+    self.factory = factory
+    self.router = router
+  }
+  
+  override func start() {
+    showOnboarding()
+  }
+  
+  func showOnboarding() {
+    let onboardingModule = factory.createOnboardingOutput()
+    onboardingModule.onFinish = { [weak self] in
+      setToSettings(key: "firstStart", value: false as AnyObject)
+      self?.finishFlow?()
+    }
+    
+    router.setRootModule(onboardingModule, hideBar: true)
+  }
+}
